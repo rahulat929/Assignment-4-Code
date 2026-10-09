@@ -1,0 +1,15 @@
+import statistics
+
+numbers = [10, 20, 30, 40, 50]
+
+print("Numbers:", numbers)
+
+print("\n--Arithmetic Calculations ---")
+print("Sum:", sum(numbers))
+print("Average:", sum(numbers) / len(numbers))
+print("Minimum:", min(numbers))
+print("Maximum:", max(numbers))
+print("\n--Statistical Calculations ---")
+print("Mean:", statistics.mean(numbers))
+print("Median:", statistics.median(numbers))
+print("Standard Deviation:", round(statistics.stdev(numbers), 2))
